@@ -18,13 +18,10 @@ class StockInfo{
                 this.stocks = null
             else{
                 stocks.forEach(stock => {
-                    if(typeof(stock) != "string"){
-                        throw new TypeError(`Only type string and array of strings are supported, but found type ${typeof{stock}}`)
-                    }                 
-                    
+                    if(typeof(stock) != "string")
+                        throw new TypeError(`Only type string and array of strings are supported, but found type ${typeof{stock}}`)                
                     if(stock.length == 0)
                         throw new TypeError(`Empty strings are not supported`)
-
                 })
                 this.stocks = stocks
             }
@@ -39,7 +36,6 @@ class StockInfo{
                 throw new TypeError(`Only type string and array of strings are supported, but found type ${typeof{stocks}}`)
             }   
         }
-           
         return this
     }
 
@@ -52,15 +48,10 @@ class StockInfo{
         })
 
         return Promise.all(requestList).then(responses => {
-            // console.log(responses) 
             let stockInfoAll = {}
             responses.forEach(response => {
                 let stockName = response.config["url"].split("\/").reverse()[1]
-
-                
-                // let stockName = this.stocks[count]
                 let stockInfo = {}
-                // let stockInfo = {}
                 let $ = cheerio.load(response.data)
                 try {
                     stockInfo['price'] =  $('[data-reactid=50]').html().replace(" ", "")
@@ -73,13 +64,9 @@ class StockInfo{
                     console.log(e.message)
                     return
                 }
-      
-                // console.log(stockInfo)
                 stockInfoAll[stockName] = stockInfo
             })
-        
-            // this.stockInfo = stockInfoAll
-            return stockInfoAll
+                return stockInfoAll
         })
         
     }
