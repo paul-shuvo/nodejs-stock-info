@@ -1,0 +1,40 @@
+{
+  "name": "stock-info",
+  "version": "0.1.0",
+  "description": "A nodejs library to fetch stock info that doesn't require subscribing to any API calls.",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "chai-as-promised": "^7.1.1",
+    "codecov": "^3.8.1",
+    "eslint": "^7.20.0",
+    "mocha": "^8.3.0",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc mocha",
+    "report-coverage": "nyc --reporter=text-lcov > coverage.lcov mocha"
+  },
+  "keywords": [
+    "stock",
+    "stock price",
+    "stock info",
+    "info",
+    "library"
+  ],
+  "author": "Shuvo Kumar Paul",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul-shuvo/stock-info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paul-shuvo/stock-info/issues"
+  },
+  "homepage": "https://github.com/paul-shuvo/stock-info"
+}
