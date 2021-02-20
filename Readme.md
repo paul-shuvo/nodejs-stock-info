@@ -64,8 +64,6 @@ stockInfo.setStocks("tsla").getStockInfo().then((response) => {
 })
 ```
 
-
-
 ## Issues
 
 If any issues are found, they can be reported [here](https://github.com/paul-shuvo/nodejs-stock-info/issues).
