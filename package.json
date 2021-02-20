@@ -1,6 +1,6 @@
 {
-  "name": "@paul-shuvo/nodejs-stock-info",
-  "version": "0.1.16",
+  "name": "nodejs-stock-info",
+  "version": "0.1.17",
   "description": "A nodejs library to fetch stock info that doesn't require subscribing to any API calls.",
   "main": "index.js",
   "dependencies": {
