@@ -2,9 +2,8 @@
 <h1>NodeJS Stock Info</h1>
 
 [![Build Status](https://travis-ci.com/paul-shuvo/nodejs-stock-info.svg?branch=main)](https://travis-ci.com/paul-shuvo/nodejs-stock-info) [![Known Vulnerabilities](https://snyk.io/test/github/paul-shuvo/nodejs-stock-info/badge.svg?targetFile=package.json)](https://snyk.io/test/github/paul-shuvo/nodejs-stock-info?targetFile=package.json) [![codecov](https://codecov.io/gh/paul-shuvo/nodejs-stock-info/branch/main/graph/badge.svg)](https://codecov.io/gh/paul-shuvo/nodejs-stock-info)
- ![license: MIT](https://img.shields.io/npm/l/vue.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/b512e403dfc172ee3b0d/maintainability)](https://codeclimate.com/github/paul-shuvo/nodejs-stock-info/maintainability) 
- 
- [![npm version](https://badge.fury.io/js/stock-info.svg)](https://badge.fury.io/js/stock-info ![npm](https://img.shields.io/npm/dm/stock-info)
+ ![license: MIT](https://img.shields.io/npm/l/vue.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/b512e403dfc172ee3b0d/maintainability)](https://codeclimate.com/github/paul-shuvo/nodejs-stock-info/maintainability) ![npm version](https://badge.fury.io/js/nodejs-stock-info.svg)
+ <!-- ![npm](https://img.shields.io/npm/dm/nodejs-stock-info) -->
 
 <p>A minimal NodeJS library to fetch stock info.</p>
 </div>
