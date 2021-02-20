@@ -31,7 +31,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paul-shuvo/nodejs-stock-info.git"
+    "url": "git://github.com/paul-shuvo/nodejs-stock-info.git"
   },
   "bugs": {
     "url": "https://github.com/paul-shuvo/nodejs-stock-info/issues"
