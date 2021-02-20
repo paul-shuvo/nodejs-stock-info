@@ -33,9 +33,6 @@
     "type": "git",
     "url": "https://github.com/paul-shuvo/nodejs-stock-info.git"
   },
-  // "publishConfig": {
-  //   "registry": "https://npm.pkg.github.com/paul-shuvo"
-  // },
   "bugs": {
     "url": "https://github.com/paul-shuvo/nodejs-stock-info/issues"
   },
