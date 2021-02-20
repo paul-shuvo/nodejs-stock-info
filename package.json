@@ -1,6 +1,6 @@
 {
   "name": "nodejs-stock-info",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A nodejs library to fetch stock info that doesn't require subscribing to any API calls.",
   "main": "index.js",
   "dependencies": {
@@ -33,9 +33,9 @@
     "type": "git",
     "url": "https://github.com/paul-shuvo/nodejs-stock-info.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/paul-shuvo"
-  },
+  // "publishConfig": {
+  //   "registry": "https://npm.pkg.github.com/paul-shuvo"
+  // },
   "bugs": {
     "url": "https://github.com/paul-shuvo/nodejs-stock-info/issues"
   },
