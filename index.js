@@ -53,6 +53,7 @@ class StockInfo{
                 let stockName = response.config["url"].split("\/").reverse()[1]
                 let stockInfo = {}
                 let $ = cheerio.load(response.data)
+                console.log(data.quoteResponse.result[0])
                 try {
                     stockInfo['price'] =  $('[data-reactid=50]').html().replace(" ", "")
                     let [changeAmount, changePercent] = $('span[data-reactid=51]').html().replace(/\(|\)|%/g, "").split(" ")
@@ -74,7 +75,7 @@ class StockInfo{
 }
 
 // let s = new StockInfo(["amznhiyt", "aapl"])
-// // // s.print()
+// // // // s.print()
 // s.getStockInfo().then((stockInfo) => console.log(stockInfo))
 // let l = 1
 

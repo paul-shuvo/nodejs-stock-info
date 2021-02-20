@@ -1,5 +1,5 @@
 {
-  "name": "stock-info",
+  "name": "nodejs-stock-info",
   "version": "0.1.1",
   "description": "A nodejs library to fetch stock info that doesn't require subscribing to any API calls.",
   "main": "index.js",
