@@ -17,13 +17,13 @@ __Disclaimer:__ This package fetch the result from finance.yahoo.com using web s
 This package can be installed using `npm`
 
 ```bash
-npm install stock-info
+npm install nodejs-stock-info
 ```
 
 or, `yarn`
 
 ```bash
-yarn add stock-info
+yarn add nodejs-stock-info
 ```
 
 ### Usage
@@ -31,7 +31,7 @@ yarn add stock-info
 Import `stock-info`.
 
 ```javascript
-const SI = require('stock-info')
+const SI = require('nodejs-stock-info')
 ```
 
 Then instantiate with either the empty constructor
